@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('c:\Users\daich\OneDrive\デスクトップ\my_blog\top.png');
+            background-size: cover;
+            background-position: center;
+        }
+        header {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        header nav {
+            display: flex;
+            justify-content: center;
+        }
+        header nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+        }
+        .archive-section {
+            display: flex;
+            justify-content: center;
+            margin-top: 20vh; /* Adjust this value to position the section as needed */
+        }
+        .archive-item {
+            background-color: rgba(255, 255, 255, 0.8);
+            margin: 0 10px;
+            padding: 20px;
+            width: 30%; /* Adjust this value to control the width of archive items */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#history">歴史</a>
+            <a href="#producer-introduction">生産者紹介</a>
+            <a href="#column">コラム</a>
+        </nav>
+    </header>
+
+    <div class="archive-section">
+        <div class="archive-item">
+            <h2>Article Title 1</h2>
+            <p>Article summary 1</p>
+        </div>
+        <div class="archive-item">
+            <h2>Article Title 2</h2>
+            <p>Article summary 2</p>
+        </div>
+        <div class="archive-item">
+            <h2>Article Title 3</h2>
+            <p>Article summary 3</p>
+        </div>
+    </div>
+
+</body>
+</html>
